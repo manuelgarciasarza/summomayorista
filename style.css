@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* paleta 
+#142fb8 (azul oscuro)
+#255bf4 (azul claro)
+#e3475a (rojo)
+*/
+
+body {
+    font-family: 'Geologica', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center ;
+    background-color: #142fb8;
+}
+
+.titulo {
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 70px;
+    margin-left: 80px;
+}
+
+.titulo .titulo-texto{
+    display: flex;
+    align-items: center;
+}
+
+.banner img{ 
+    width: 100%;
+}
+
+.ingresar {
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.link-compreahora{
+    display: flex;
+    background-color: #142fb8;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin: 25px 0;
+}
+
+.link-compreahora a {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.contacto {
+    margin-left: 20px;
+}
+
+.contacto-texto h3 {
+    color: #255bf4;
+}
+
+.wpp , .email {
+    display: flex;
+    color: #255bf4;
+}
+
+.footer {
+    margin-top: 25px;
+    width: 100%;
+    height: 80px;
+    background-color: #255bf4;
+}
