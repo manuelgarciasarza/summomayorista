@@ -10,7 +10,7 @@
 */
 
 body {
-    font-family: 'Geologica', sans-serif;
+    font-family: 'Geologica', serif;
 }
 
 a {
@@ -29,20 +29,24 @@ header {
     margin-top: 35px;
     margin-bottom: 70px;
     margin-left: 80px;
+    color: #142fb8;
 }
 
 .titulo .titulo-texto{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .banner img{ 
     width: 100%;
+    margin-bottom: 70px;
 }
 
 .ingresar {
     margin-bottom: 25px;
     margin-left: 20px;
+    color: #142fb8;
 }
 
 .link-compreahora{
@@ -60,17 +64,39 @@ header {
     color: #ffffff;
 }
 
-.contacto {
-    margin-left: 20px;
+.link-compreahora img {
+    height: 32px;
+    width: 32px;
 }
 
-.contacto-texto h3 {
+.contacto {
+    width: 50%;
+    margin: auto;    
+}
+
+.contacto-texto h2 {
     color: #255bf4;
+    margin: 15px 0;
+}
+
+.contacto-texto p {
+    margin: 15px 0;
 }
 
 .wpp , .email {
     display: flex;
     color: #255bf4;
+    align-items: center;
+}
+
+.wpp img {
+    height: 35px;
+    width: 35px;
+    margin-right: 3px;
+}
+
+.email img {
+    margin-right: 8px;
 }
 
 .footer {
