@@ -11,8 +11,6 @@
 
 body {
     font-family: 'Geologica', sans-serif;
-    font-weight: 100;
-    font-style: normal;
 }
 
 a {
@@ -69,6 +67,10 @@ header {
     color: #ffffff;
 }
 
+.link-compreahora a:hover {
+    opacity: 0.7;
+}
+
 .link-compreahora img {
     height: 25px;
     width: 25px;
@@ -109,4 +111,53 @@ header {
     width: 100%;
     height: 80px;
     background-color: #255bf4;
+}
+
+/* media celular*/
+
+@media (max-width: 360px){
+
+    header img {
+        width: 100%;
+        height: 187px;
+    }
+
+    .titulo {
+        margin-left: 0;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .logo-unilever {
+        height: 80px;
+        width: 110px;
+    }
+
+    .titulo .titulo-texto h3{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .banner img{
+        height: 120px;
+    }
+
+    .link-compreahora{
+        margin: 40px 0;
+    }
+
+    .contacto {
+        width: 100%;
+    }
+
+    .contacto-texto h2{
+        text-align: center;
+    }
+
+    .footer {
+        margin-top: 40px;
+        height: 60px;
+    }
 }
