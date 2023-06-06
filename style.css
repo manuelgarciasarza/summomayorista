@@ -115,7 +115,7 @@ header {
 
 /* media celular*/
 
-@media (max-width: 360px){
+@media (max-width: 425px){
 
     header img {
         width: 100%;
